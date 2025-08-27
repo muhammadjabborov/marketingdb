@@ -11,3 +11,4 @@ celery
 django_redis
 requests
 pillow
+sentry_sdk

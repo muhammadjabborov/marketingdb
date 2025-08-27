@@ -57,6 +57,7 @@ THIRD_PARTY_APPS = [
     "corsheaders",
     "celery",
     "django_redis",
+    "ckeditor",
 ]
 
 REST_FRAMEWORK = {
@@ -182,3 +183,12 @@ CELERY_TASK_TRACK_STARTED = True
 CELERY_TASK_TIME_LIMIT = 30 * 60
 
 BOT_TOKEN = env.str("BOT_TOKEN")
+
+JAZZMIN_SETTINGS = {
+    "site_title": "HBS Marketing Admin",
+    "site_header": "HBS Marketing Admin",
+    "site_brand": "Admin",
+    "show_sidebar": True,
+    "navigation_expanded": False,
+    # "custom_js": "inbox/js/notification.js",
+}
