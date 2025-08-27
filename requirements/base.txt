@@ -12,3 +12,5 @@ django_redis
 requests
 pillow
 sentry_sdk
+ckeditor
+beautifulsoup4
