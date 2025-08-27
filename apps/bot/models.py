@@ -26,4 +26,3 @@ class UserContact(BaseModel):
     class Meta:
         verbose_name = _("User Contact")
         verbose_name_plural = _("User Contacts")
-
